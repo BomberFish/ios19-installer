@@ -12,10 +12,11 @@ struct ios19seedApp: App {
     @State var triggerRespring = false
     var body: some Scene {
         WindowGroup {
+            // Reuse some code from pissra1n yay
             ContentView(triggerRespring: $triggerRespring)
                 .scaleEffect(triggerRespring ? 0.95 : 1)
                 .brightness(triggerRespring ? -1 : 0)
-                #if os(iOS) || os(iPadOS) || os(tvOS) || os(watchOS)
+                #if os(iOS) || os(tvOS) || os(watchOS)
                     .statusBarHidden(triggerRespring)
                 #endif
                 .onChange(of: triggerRespring) { _ in

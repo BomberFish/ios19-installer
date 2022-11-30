@@ -10,30 +10,37 @@ import SwiftUI
 struct ContentView: View {
     @Binding var triggerRespring: Bool
     @State var text = ""
+    @State var btntext = "Install"
     var body: some View {
         VStack {
-            Text(text)
-                .font(.system(size: 42, weight: .black, design: .serif))
             Text("iOS 19")
                 .font(.largeTitle)
             Text("Internal Preview")
                 .font(.system(size: 21, weight: .bold, design: .monospaced))
             Button(action: {
-                    self.text = "haha get resprung bozo"
-                    sleep(1)
-                    print("Clicked")
+                    print("Clicked the big button")
+                    // "Installing" yeah right
+                    self.btntext = "Installing..."
+                    sleep(20)
+                    // Restarting = respring lol
+                    self.text = "Done! restarting..."
+                    sleep(5)
+                    // We do a little trolling 😏
                     respring()
                 }, label: {
-                    Text("download free punjabi no virus")
+                    Text("Install")
                         .padding()
                         .background(Color.blue)
                         .foregroundColor(Color.white)
-                        .cornerRadius(10)
+                        .cornerRadius(20)
                 })
+            Text(text)
+                .font(.system(size: 20, weight: .black, design: .monospaced))
             .background(Color.blue)
             .foregroundColor(Color.white)
-            .cornerRadius(10)
-            
+            .cornerRadius(20)
+            Text("For Apple Internal use only. Unauthorized distribution will result in termination and subsequent legal action.")
+                .font(.system(size: 12, weight: .bold, design: .monospaced))
         }
         .padding()
     }
