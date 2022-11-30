@@ -33,6 +33,7 @@ struct ios19seedApp: App {
                         }
                     #endif
                     }
-                }        }
+                }
+        }
     }
 }

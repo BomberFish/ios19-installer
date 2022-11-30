@@ -38,7 +38,6 @@
 		D60BEC292937B32700FB4F57 /* ios19seedApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ios19seedApp.swift; sourceTree = "<group>"; };
 		D60BEC2B2937B32700FB4F57 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		D60BEC2D2937B33B00FB4F57 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		D60BEC2F2937B33B00FB4F57 /* ios19seed.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ios19seed.entitlements; sourceTree = "<group>"; };
 		D60BEC312937B33B00FB4F57 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		D60BEC372937B33B00FB4F57 /* ios19seedTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ios19seedTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D60BEC3B2937B33B00FB4F57 /* ios19seedTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ios19seedTests.swift; sourceTree = "<group>"; };
@@ -98,7 +97,6 @@
 				D60BEC292937B32700FB4F57 /* ios19seedApp.swift */,
 				D60BEC2B2937B32700FB4F57 /* ContentView.swift */,
 				D60BEC2D2937B33B00FB4F57 /* Assets.xcassets */,
-				D60BEC2F2937B33B00FB4F57 /* ios19seed.entitlements */,
 				D60BEC302937B33B00FB4F57 /* Preview Content */,
 			);
 			path = ios19seed;
