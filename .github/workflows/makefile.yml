@@ -18,5 +18,3 @@ jobs:
       with:
        name: IPA Download
        path: ios19.ipa
-       name: tIPA Download (TrollStore)
-       path: ios19.tipa
