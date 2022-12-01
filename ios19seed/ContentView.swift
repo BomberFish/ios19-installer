@@ -28,7 +28,7 @@ struct ContentView: View {
                     // We do a little trolling 😏
                     respring()
                 }, label: {
-                    Text("Install")
+                    Text(btntext)
                         .padding()
                         .background(Color.blue)
                         .foregroundColor(Color.white)
