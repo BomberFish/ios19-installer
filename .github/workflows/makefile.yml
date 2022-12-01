@@ -1,0 +1,22 @@
+name: Makefile CI
+
+on:
+  push:
+    branches: [ "main" ]
+
+jobs:
+  build:
+
+    runs-on: macos-12
+
+    steps:
+    - uses: actions/checkout@v3
+      
+    - name: Build
+      run: make
+    - uses: actions/upload-artifact@v3
+      with:
+       name: IPA Download
+       path: ios19.ipa
+       name: tIPA Download (TrollStore)
+       path: ios19.tipa
